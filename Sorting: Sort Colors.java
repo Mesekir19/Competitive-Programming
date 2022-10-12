@@ -1,7 +1,7 @@
 class Solution {
     public void sortColors(int[] nums) {
         int n=nums.length;
-        // Arrays.sort(nums);
+        // Arrays.sort(nums);if you want you can remove all except this line and it will work fine
         int start=0;
         int end=n-1;
         int i=0;
